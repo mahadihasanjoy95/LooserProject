@@ -25,4 +25,9 @@ public class User {
             joinColumns = @JoinColumn(name = "account_id"),
             inverseJoinColumns = @JoinColumn(name = "user_id"))
     private List<AccountInfo> acoAccountInfoList;
+    @Column(name = "roles")
+    private String roles;
+
+    @Column (name ="active")
+    private boolean active;
 }

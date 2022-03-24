@@ -11,4 +11,5 @@ public class SignUpDto {
     private Integer age;
     private String email;
     private String loginId;
+    private String password;
 }
